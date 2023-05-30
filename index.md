@@ -409,11 +409,8 @@ please preview your site before committing, and make sure to run
   Library Carpentry
   {% endif %}
   workshop,
-  you will need install software as described at the beginning of each lesson linked to above. Alternate instructions are
-  available below.  In addition, you will need an up-to-date web browser.
-</p>
-
-{% comment %}
+  you will need install software.
+  {% comment %}
 These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
@@ -429,6 +426,11 @@ Please check the "Setup" page of
 [the lesson site]({{ site.incubator_lesson_site }}) for instructions to follow
 to obtain the software and data you will need to follow the lesson.
 {% endif %}
+  Alternate instructions are at the beginning of each lesson linked to above.
+  In addition, you will need an up-to-date web browser.
+</p>
+
+
 
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
